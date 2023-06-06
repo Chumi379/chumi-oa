@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="oa:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/oa_Web_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="oa" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.11" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.28" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.11.4" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.2.15" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.32" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:2.0.22" />
+          <element id="library" level="project" name="Maven: com.alibaba.fastjson2:fastjson2-extension:2.0.22" />
+          <element id="library" level="project" name="Maven: com.alibaba.fastjson2:fastjson2:2.0.22" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.15" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="oa/web/Web" />
+    </root>
+  </artifact>
+</component>
